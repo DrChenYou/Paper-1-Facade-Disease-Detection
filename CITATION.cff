@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Scientific Reports article."
+title: "Building Facade Disease Detection with YOLOv5"
+type: software
+authors:
+  - family-names: Chen
+    given-names: You
+version: 0.1.0
+license: MIT
+keywords:
+  - building facade
+  - defect detection
+  - crack detection
+  - YOLOv5
+  - deep learning
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Chen
+      given-names: You
+    - family-names: Li
+      given-names: Dayao
+  title: "Disease detection on exterior surfaces of buildings using deep learning in China"
+  journal: Scientific Reports
+  volume: 15
+  year: 2025
+  month: 3
+  day: 12
+  doi: 10.1038/s41598-025-92112-7
+  url: "https://doi.org/10.1038/s41598-025-92112-7"
+

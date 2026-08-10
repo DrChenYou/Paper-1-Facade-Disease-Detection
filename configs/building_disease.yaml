@@ -1,0 +1,11 @@
+# Paths are resolved by YOLOv5 relative to this file's parent or as absolute paths.
+path: ../data/processed
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+names:
+  0: cracks
+  1: exterior_wall_damage
+
