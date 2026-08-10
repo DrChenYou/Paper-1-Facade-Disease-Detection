@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data, models, and experiment outputs
+data/raw/images/*
+data/raw/labels/*
+data/processed/
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Downloaded upstream code
+third_party/
+
+# Keep empty local-data directories visible
+!data/raw/images/.gitkeep
+!data/raw/labels/.gitkeep
